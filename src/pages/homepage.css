@@ -1,0 +1,65 @@
+.banner-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-wrapper img {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 1px 1px 5px 2px rgb(0, 0, 0, 0.4);
+}
+.resto-wrapper {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px 0;
+  margin-top: 100px;
+  padding: 0 40px;
+}
+.burgerbar {
+  width: 90px;
+  height: 90px;
+  background-color: #ff4b2bd3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0.5px 0.5px 10px 0.5px rgb(0, 0, 0, 0.2);
+}
+.burgerbar :hover {
+  width: 90px;
+  height: 90px;
+  background-color: #ff4b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 0.5px 0.5px 10px 0.5px rgb(0, 0, 0, 0.2);
+}
+.contain-bar {
+  font-size: 60px;
+  color: white;
+}
+@media (max-width: 480px) {
+  .resto-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+  }
+  .contain-bar {
+    font-size: 40px;
+    color: white;
+  }
+  .burgerbar {
+    width: 90px;
+    height: 90px;
+  }
+}

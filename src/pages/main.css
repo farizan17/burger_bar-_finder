@@ -1,0 +1,14 @@
+.main-container {
+  background-color: rgb(255, 255, 255);
+  max-width: 768px;
+  min-height: 100vh;
+  margin: auto;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+@media (max-width: 480px) {
+  .main-container {
+    padding-bottom: 100px;
+    padding-top: 30px;
+  }
+}

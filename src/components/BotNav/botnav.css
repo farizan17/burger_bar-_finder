@@ -1,0 +1,19 @@
+nav {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  left: 0;
+}
+.navbot {
+  max-width: 768px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 18px 20px;
+  background-color: #ff4b2b;
+  border-radius: 20px 20px 0px 0px;
+}
+.nav-wrapper :hover {
+  color: rgb(255, 183, 101);
+}
